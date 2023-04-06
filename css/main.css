@@ -495,7 +495,7 @@ select {
   -webkit-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
-  padding: 10px 20px;
+  padding: 12px 20px;
 }
 .btn:hover {
   color: #fff;
@@ -515,7 +515,7 @@ select {
   -webkit-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
-  padding: 10px 20px;
+  padding: 12px 20px;
 }
 .btn-bg:hover {
   background: #FFFFFF;
