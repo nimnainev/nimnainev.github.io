@@ -485,7 +485,7 @@ select {
 }
 
 .btn {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 16px;
   color: #365ED7;
   padding: 10px 18px;
@@ -504,7 +504,7 @@ select {
 }
 
 .btn-bg {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 16px;
   color: #fff;
   padding: 10px 18px;
@@ -581,6 +581,7 @@ select {
   background: #F7F9FC;
   border-radius: 15px;
   padding: 12px 10px;
+  height: 45px;
 }
 .header__search-label::before {
   content: "";
@@ -645,11 +646,16 @@ select {
 .header__select {
   width: 100%;
   max-width: 279px;
-  background: #FFFFFF;
+  background-color: #FFFFFF;
+  background-image: url(../img/svg/select.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-x: 248px;
   border-radius: 15px;
   border: 2px solid #EBEEF6;
   padding: 15px 12px;
   margin-right: 45px;
+  margin-left: auto;
   position: relative;
 }
 
@@ -754,10 +760,10 @@ select {
   border: 1px solid #EBEEF7;
   border-radius: 30px;
   margin: 0 auto;
-  padding: 22px;
+  padding: 22px 22px 0px 22px;
 }
 .panels__social-descr {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 16px;
   line-height: 140%;
   color: #29304B;
@@ -773,7 +779,7 @@ select {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  margin-top: 20px;
+  margin: 30px;
 }
 
 .panels__social-list {
@@ -842,7 +848,7 @@ main {
 }
 
 .title {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 32px;
   line-height: 140%;
   color: #29304B;
@@ -892,6 +898,7 @@ main {
 .info {
   width: 100%;
   background: #f5f7fa;
+  border-radius: 30px;
   padding: 23px;
 }
 
@@ -902,6 +909,7 @@ main {
   margin-bottom: 13px;
 }
 .services__subtitle {
+  font-weight: 500;
   font-size: 16px;
   line-height: 160%;
   color: #626983;
@@ -914,7 +922,7 @@ main {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin-bottom: 8px;
+  margin-bottom: 15px;
 }
 .services__items:last-child {
   margin-bottom: 0;
@@ -950,7 +958,6 @@ main {
   -o-transition: all 0.4s linear;
   transition: all 0.4s linear;
   cursor: pointer;
-  margin-right: 20px;
 }
 .services__item:hover {
   border: 2px solid #BAC1DA;
@@ -988,6 +995,7 @@ main {
 }
 .services__item--card {
   width: 100%;
+  max-width: 348px;
   background-color: #FFFFFF;
   background-position: right bottom !important;
 }
@@ -999,7 +1007,7 @@ main {
   padding: 10px;
 }
 .services__item-title {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 24px;
   line-height: 110%;
   color: #29304B;
@@ -1061,13 +1069,10 @@ main {
   margin-bottom: 20px;
 }
 .doctors__item {
-  width: 100%;
-  max-width: 266px;
-  height: 426px;
   background: #FFFFFF;
   border: 2px solid #EBEEF7;
   border-radius: 30px;
-  padding: 10px;
+  padding: 15px;
   -webkit-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
@@ -1102,7 +1107,7 @@ main {
   font-size: 16px;
   line-height: 160%;
   color: #29304B;
-  font-weight: 700;
+  font-weight: 600;
 }
 .doctors__item-img {
   width: 100%;
@@ -1186,6 +1191,17 @@ main {
 .disease__button-item .btn {
   border-radius: 0px 15px 15px 0px;
 }
+.disease__button-point {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.disease__button-point .disease__button-btn {
+  margin-right: 10px;
+}
+.disease__button-point .disease__button-btn:last-child {
+  margin-right: 0;
+}
 .disease__content {
   background: #FFFFFF;
   border-radius: 30px;
@@ -1257,7 +1273,7 @@ main {
   margin-right: 20px;
 }
 .disease__item-title {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 18px;
   line-height: 160%;
   color: #29304B;
@@ -1311,7 +1327,6 @@ main {
 .faq__nav {
   width: 34%;
   display: block;
-  background: #FFFFFF;
   border-radius: 20px;
   margin-right: 35px;
 }
@@ -1335,6 +1350,8 @@ main {
   line-height: 160%;
   color: #29304B;
   border: 2px solid transparent;
+  background: #fff;
+  border-radius: 20px;
   text-align: left;
   padding: 14px 20px 14px 20px;
   -webkit-transition: all 0.1s linear;
@@ -1377,7 +1394,6 @@ main {
 }
 .faq__info {
   width: 70%;
-  padding-top: 21px;
 }
 .faq__info-title {
   font-weight: 700;
@@ -1417,6 +1433,8 @@ main {
   font-size: 12px;
   line-height: 140%;
   color: #29304B;
+  background: #fff;
+  border-radius: 30px;
   margin-bottom: 10px;
 }
 .faq__info-item:last-child {
@@ -1427,6 +1445,7 @@ main {
   color: #29304B;
   border: 2px solid #BAC1DA;
   border-radius: 20px;
+  background: #fff;
 }
 .faq .tabs__nav-btn--active .faq__nav-span {
   background: #304173;
@@ -1474,6 +1493,7 @@ main {
 
 .mails {
   background: url(../img/mails-bg.jpg) no-repeat center/cover;
+  border-radius: 30px;
   padding: 33px 33px 33px 70px;
 }
 .mails__title {
@@ -2066,6 +2086,10 @@ main {
   margin-bottom: 450px;
 }
 
+.navbar-primary.collapsed .panels__social-list {
+  display: none;
+}
+
 .btn-expand-collapse {
   display: block;
   left: 0px;
@@ -2095,7 +2119,7 @@ main {
   justify-content: space-between;
   width: 100%;
   max-width: 100%;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 18px;
   line-height: 160%;
   color: #29304B;
@@ -2123,10 +2147,12 @@ main {
   display: -ms-flexbox;
   display: flex;
   margin-right: 10px;
-  margin-top: -6px;
 }
 
 .glyphicon {
   margin-right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=main.css.map */
